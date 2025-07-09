@@ -1,11 +1,11 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace Kanhaiyanigma05\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use JoeDixon\Translation\Drivers\Database;
-use JoeDixon\Translation\Drivers\File;
+use Kanhaiyanigma05\Translation\Drivers\Database;
+use Kanhaiyanigma05\Translation\Drivers\File;
 
 class TranslationManager
 {

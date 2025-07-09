@@ -1,12 +1,12 @@
 <?php
 
-namespace JoeDixon\Translation\Drivers;
+namespace Kanhaiyanigma05\Translation\Drivers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
-use JoeDixon\Translation\Events\TranslationAdded;
+use Kanhaiyanigma05\Translation\Events\TranslationAdded;
 
 abstract class Translation
 {

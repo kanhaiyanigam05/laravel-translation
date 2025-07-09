@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation\Rules;
+namespace Kanhaiyanigma05\Translation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use JoeDixon\Translation\Drivers\Translation;
+use Kanhaiyanigma05\Translation\Drivers\Translation;
 
 class LanguageNotExists implements Rule
 {

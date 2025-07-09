@@ -1,16 +1,16 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace Kanhaiyanigma05\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use JoeDixon\Translation\Console\Commands\AddLanguageCommand;
-use JoeDixon\Translation\Console\Commands\AddTranslationKeyCommand;
-use JoeDixon\Translation\Console\Commands\ListLanguagesCommand;
-use JoeDixon\Translation\Console\Commands\ListMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseTranslationsCommand;
-use JoeDixon\Translation\Drivers\Translation;
+use Kanhaiyanigma05\Translation\Console\Commands\AddLanguageCommand;
+use Kanhaiyanigma05\Translation\Console\Commands\AddTranslationKeyCommand;
+use Kanhaiyanigma05\Translation\Console\Commands\ListLanguagesCommand;
+use Kanhaiyanigma05\Translation\Console\Commands\ListMissingTranslationKeys;
+use Kanhaiyanigma05\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
+use Kanhaiyanigma05\Translation\Console\Commands\SynchroniseTranslationsCommand;
+use Kanhaiyanigma05\Translation\Drivers\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {

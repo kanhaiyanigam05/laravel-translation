@@ -1,13 +1,13 @@
 <?php
 
-namespace JoeDixon\Translation\Console\Commands;
+namespace Kanhaiyanigma05\Translation\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use JoeDixon\Translation\Drivers\Database;
-use JoeDixon\Translation\Drivers\File;
-use JoeDixon\Translation\Drivers\Translation;
-use JoeDixon\Translation\Scanner;
+use Kanhaiyanigma05\Translation\Drivers\Database;
+use Kanhaiyanigma05\Translation\Drivers\File;
+use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Kanhaiyanigma05\Translation\Scanner;
 
 class SynchroniseTranslationsCommand extends Command
 {

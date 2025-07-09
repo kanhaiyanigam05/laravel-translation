@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Http\Requests;
+namespace Kanhaiyanigma05\Translation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation\Tests;
+namespace Kanhaiyanigma05\Translation\Tests;
 
-use JoeDixon\Translation\TranslationBindingsServiceProvider;
-use JoeDixon\Translation\TranslationServiceProvider;
+use Kanhaiyanigma05\Translation\TranslationBindingsServiceProvider;
+use Kanhaiyanigma05\Translation\TranslationServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class PackageIsLoadedTest extends TestCase
