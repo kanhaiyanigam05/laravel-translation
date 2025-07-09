@@ -14,18 +14,19 @@
         "laravel/legacy-factories": "^1.4.1"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0|^8.0",
-        "phpunit/phpunit": "^9.0|^10.0",
-        "mockery/mockery": "^1.0.0"
+        "orchestra/testbench": "^10.4.0",
+        "phpunit/phpunit": "^12.2.6",
+        "mockery/mockery": "^1.6.12"
     },
     "autoload": {
         "psr-4": {
-            "JoeDixon\\Translation\\": "src"
+            "kanhaiyanigam05\\Translation\\": "src"
         }
     },
+  "minimum-stability": "stable",
     "autoload-dev": {
         "psr-4": {
-            "JoeDixon\\Translation\\Tests\\": "tests"
+            "kanhaiyanigam05\\Translation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -35,8 +36,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JoeDixon\\Translation\\TranslationServiceProvider",
-                "JoeDixon\\Translation\\TranslationBindingsServiceProvider"
+                "kanhaiyanigam05\\Translation\\TranslationServiceProvider",
+                "kanhaiyanigam05\\Translation\\TranslationBindingsServiceProvider"
             ]
         }
     }
