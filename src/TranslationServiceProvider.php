@@ -1,16 +1,16 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation;
+namespace Kanhaiyanigam05\Translation;
 
-use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use Kanhaiyanigma05\Translation\Console\Commands\AddLanguageCommand;
-use Kanhaiyanigma05\Translation\Console\Commands\AddTranslationKeyCommand;
-use Kanhaiyanigma05\Translation\Console\Commands\ListLanguagesCommand;
-use Kanhaiyanigma05\Translation\Console\Commands\ListMissingTranslationKeys;
-use Kanhaiyanigma05\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
-use Kanhaiyanigma05\Translation\Console\Commands\SynchroniseTranslationsCommand;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Illuminate\Filesystem\Filesystem;
+use Kanhaiyanigam05\Translation\Console\Commands\AddLanguageCommand;
+use Kanhaiyanigam05\Translation\Console\Commands\AddTranslationKeyCommand;
+use Kanhaiyanigam05\Translation\Console\Commands\ListLanguagesCommand;
+use Kanhaiyanigam05\Translation\Console\Commands\ListMissingTranslationKeys;
+use Kanhaiyanigam05\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
+use Kanhaiyanigam05\Translation\Console\Commands\SynchroniseTranslationsCommand;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {

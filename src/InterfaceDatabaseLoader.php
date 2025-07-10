@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation;
+namespace Kanhaiyanigam05\Translation;
 
 use Illuminate\Translation\LoaderInterface;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
 
 class InterfaceDatabaseLoader implements LoaderInterface
 {

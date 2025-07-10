@@ -1,11 +1,11 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Drivers;
+namespace Kanhaiyanigam05\Translation\Drivers;
 
 use Illuminate\Support\Collection;
-use Kanhaiyanigma05\Translation\Exceptions\LanguageExistsException;
-use Kanhaiyanigma05\Translation\Language;
-use Kanhaiyanigma05\Translation\Translation as TranslationModel;
+use Kanhaiyanigam05\Translation\Exceptions\LanguageExistsException;
+use Kanhaiyanigam05\Translation\Language;
+use Kanhaiyanigam05\Translation\Translation as TranslationModel;
 use Throwable;
 
 class Database extends Translation implements DriverInterface

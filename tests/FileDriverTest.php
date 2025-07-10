@@ -1,13 +1,13 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Tests;
+namespace Kanhaiyanigam05\Translation\Tests;
 
 use Illuminate\Support\Facades\Event;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
-use Kanhaiyanigma05\Translation\Events\TranslationAdded;
-use Kanhaiyanigma05\Translation\Exceptions\LanguageExistsException;
-use Kanhaiyanigma05\Translation\TranslationBindingsServiceProvider;
-use Kanhaiyanigma05\Translation\TranslationServiceProvider;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Events\TranslationAdded;
+use Kanhaiyanigam05\Translation\Exceptions\LanguageExistsException;
+use Kanhaiyanigam05\Translation\TranslationBindingsServiceProvider;
+use Kanhaiyanigam05\Translation\TranslationServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class FileDriverTest extends TestCase

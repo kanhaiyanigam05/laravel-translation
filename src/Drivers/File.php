@@ -1,12 +1,12 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Drivers;
+namespace Kanhaiyanigam05\Translation\Drivers;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Kanhaiyanigma05\Translation\Exceptions\LanguageExistsException;
+use Kanhaiyanigam05\Translation\Exceptions\LanguageExistsException;
 
 class File extends Translation implements DriverInterface
 {

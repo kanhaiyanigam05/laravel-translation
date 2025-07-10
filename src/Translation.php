@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation;
+namespace Kanhaiyanigam05\Translation;
 
 use Illuminate\Database\Eloquent\Model;
 

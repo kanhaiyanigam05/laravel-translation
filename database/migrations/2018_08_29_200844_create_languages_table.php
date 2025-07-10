@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use Kanhaiyanigma05\Translation\Language;
+use Kanhaiyanigam05\Translation\Language;
 
 class CreateLanguagesTable extends Migration
 {

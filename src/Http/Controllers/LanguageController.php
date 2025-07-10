@@ -1,11 +1,11 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Http\Controllers;
+namespace Kanhaiyanigam05\Translation\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
-use Kanhaiyanigma05\Translation\Http\Requests\LanguageRequest;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Http\Requests\LanguageRequest;
 
 class LanguageController extends Controller
 {

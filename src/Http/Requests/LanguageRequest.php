@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Http\Requests;
+namespace Kanhaiyanigam05\Translation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Kanhaiyanigma05\Translation\Rules\LanguageNotExists;
+use Kanhaiyanigam05\Translation\Rules\LanguageNotExists;
 
 class LanguageRequest extends FormRequest
 {

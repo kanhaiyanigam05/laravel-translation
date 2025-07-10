@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Console\Commands;
+namespace Kanhaiyanigam05\Translation\Console\Commands;
 
 use Illuminate\Console\Command;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
 
 class BaseCommand extends Command
 {

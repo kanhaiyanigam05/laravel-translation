@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Console\Commands;
+namespace Kanhaiyanigam05\Translation\Console\Commands;
 
 class AddTranslationKeyCommand extends BaseCommand
 {

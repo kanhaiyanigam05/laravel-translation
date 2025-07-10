@@ -1,10 +1,10 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Tests;
+namespace Kanhaiyanigam05\Translation\Tests;
 
-use Kanhaiyanigma05\Translation\Scanner;
-use Kanhaiyanigma05\Translation\TranslationBindingsServiceProvider;
-use Kanhaiyanigma05\Translation\TranslationServiceProvider;
+use Kanhaiyanigam05\Translation\Scanner;
+use Kanhaiyanigam05\Translation\TranslationBindingsServiceProvider;
+use Kanhaiyanigam05\Translation\TranslationServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 class ScannerTest extends TestCase

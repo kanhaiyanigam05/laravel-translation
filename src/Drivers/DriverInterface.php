@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Drivers;
+namespace Kanhaiyanigam05\Translation\Drivers;
 
 interface DriverInterface
 {

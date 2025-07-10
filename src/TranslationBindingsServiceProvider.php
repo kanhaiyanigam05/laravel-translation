@@ -1,10 +1,10 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation;
+namespace Kanhaiyanigam05\Translation;
 
 use Illuminate\Translation\TranslationServiceProvider as ServiceProvider;
 use Illuminate\Translation\Translator;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
 
 class TranslationBindingsServiceProvider extends ServiceProvider
 {

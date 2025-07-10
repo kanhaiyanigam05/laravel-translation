@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Exceptions;
+namespace Kanhaiyanigam05\Translation\Exceptions;
 
 class LanguageExistsException extends \Exception
 {

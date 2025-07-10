@@ -1,6 +1,6 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Events;
+namespace Kanhaiyanigam05\Translation\Events;
 
 use Illuminate\Foundation\Events\Dispatchable;
 

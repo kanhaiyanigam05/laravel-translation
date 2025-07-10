@@ -1,9 +1,9 @@
 <?php
 
-namespace Kanhaiyanigma05\Translation\Rules;
+namespace Kanhaiyanigam05\Translation\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Kanhaiyanigma05\Translation\Drivers\Translation;
+use Kanhaiyanigam05\Translation\Drivers\Translation;
 
 class LanguageNotExists implements Rule
 {
