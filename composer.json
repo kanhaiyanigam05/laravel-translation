@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "kanhaiyanigam05\\Translation\\": "src"
+            "Kanhaiyanigam05\\Translation\\": "src"
         }
     },
-  "minimum-stability": "stable",
+    "minimum-stability": "stable",
     "autoload-dev": {
         "psr-4": {
-            "kanhaiyanigam05\\Translation\\Tests\\": "tests"
+            "Kanhaiyanigam05\\Translation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -36,8 +36,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "kanhaiyanigam05\\Translation\\TranslationServiceProvider",
-                "kanhaiyanigam05\\Translation\\TranslationBindingsServiceProvider"
+                "Kanhaiyanigam05\\Translation\\TranslationServiceProvider",
+                "Kanhaiyanigam05\\Translation\\TranslationBindingsServiceProvider"
             ]
         }
     }
